@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title></title>
+
+  <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+  <link rel="stylesheet" href="most.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+  <header>A tribute to the Mug of VI, for the Sublime Text user. 0123 ilIL. </header>
+
+  <h1>The Mug of ST</h1>
+
+  <h2>File Commands</h2>
+  <dl>
+    <dt><kbd>Ctrl Shift t</kbd></dt>
+    <dd>Open most recently closed file.</dd>
+    <dt><kbd></kbd></dt>
+    <dd></dd>
+  </dl>
+
+  <h2>Selecting</h2>
+  <dl>
+    <dt><kbd>Ctrl Shift a</kbd></dt>
+    <dd>Select contents of tag. Again to select the tag.</dd>
+    <dt><kbd>Ctrl Shift m</kbd></dt>
+    <dd>Select contents of brackets; again to select the brackets too</dd>
+    <dt><kbd>Ctrl Shift Space</kbd></dt>
+    <dd>Select attribute value (plus quotes); again to select tag</dd>
+    <dt><kbd>Ctrl l</kbd></dt>
+    <dd>Select the current line. (Subsequent presses of L while holding Ctrl will select lines further down.)</dd>
+    <dt><kbd>Ctrl Shift l</kbd></dt>
+    <dd>Change highlighted block into a multi-selection.</dd>
+    <dt><kbd>Alt F3</kbd></dt>
+    <dd>Select all occurrences of the highlighted text; <kbd><em>Ctrl d?</em> / Ctrl Cmd g</kbd> on OSX</dd>
+    <dt><kbd>Ctrl d</kbd></dt>
+    <dd>Add next occurence of selection as a multi-selection.</dd>
+    <dt><kbd>Ctrl [</kbd></dt>
+    <dd>When text is selected, press <kbd>Ctrl Shift [</kbd> to fold that block of code out of view. Use <kbd>Ctrl Shift ]</kbd> to unfold. </dd>
+    <dt><kbd>Ctrl Alt DownArrow</kbd></dt>
+    <dd>Add line below as multi-selection [UpArrow for line above]</dd>
+
+    <dt><kbd>Ctrl c</kbd></dt>
+    <dd>Copy current line of text. <em>When nothing is selected, ST will copy/cut the current line of text.</em> [x to cut]</dd>
+    <dt><kbd></kbd></dt>
+    <dd></dd>
+  </dl>
+
+  ?? : Select attribs, value
+
+  <h2>Editing Text</h2>
+  <dl>
+    <dt><kbd>Ctrl Shift k</kbd></dt>
+    <dd>Delete current line(s)</dd>
+    <dt><kbd>Ctrl Shift d</kbd></dt>
+    <dd>Duplicate line(s)</dd>
+    <dt><kbd>Alt Shift w</kbd></dt>
+    <dd>Wrap selection with tag (<kbd>Ctrl Shift w</kbd> on Mac)</dd>
+    <dt><kbd>Ctrl /</kbd></dt>
+    <dd>Comment the currently selected text; again to un-comment</dd>
+    <dt><kbd>Ctrl j</kbd></dt>
+    <dd>Join 2 lines of text; make current line and line below it one line</dd>
+    <dt><kbd>Ctrl Shift j</kbd></dt>
+    <dd>Join all highlighted lines into a single line</dd>
+    <dt><kbd>Ctrl Shift UpArrow</kbd></dt>
+    <dd>Swap current line (selected block) with line above [DownArrow for below]</dd>
+    <dt><kbd>Ctrl Backspace</kbd></dt>
+    <dd>Delete word in front of cursor</dd>
+    <dt><kbd>Ctrl Del</kbd></dt>
+    <dd>Delete word behind cursor</dd>
+    <dt><kbd>Ctrl k u</kbd></dt>
+    <dd>Uppercase selected text</dd>
+    <dt><kbd>Ctrl k u</kbd></dt>
+    <dd>Lowercase selected text</dd>
+    <dt><kbd></kbd></dt>
+    <dd></dd>
+    <dt><kbd></kbd></dt>
+    <dd></dd>
+  </dl>
+
+  <h2>Environment / View</h2>
+  <dl>
+    <dt><kbd>Alt Shift 1</kbd></dt>
+    <dd>Switch to single column layout; <kbd>Alt Cmd 1</kbd> on OSX</dd>
+    <dt><kbd>Alt Shift 2</kbd></dt>
+    <dd>Switch to 2 column layout; <kbd>Alt Cmd 2</kbd> on OSX</dd>
+    <dt><kbd>Alt w</kbd></dt>
+    <dd>Toggle word wrap</dd>
+    <dt><kbd>Ctrl +</kbd></dt>
+    <dd>Increase text size</dd>
+    <dt><kbd>Ctrl -</kbd></dt>
+    <dd>Decrease text size</dd>
+    <dt><kbd>Ctrl k t</kbd></dt>
+    <dd>Fold all tag attributes.</dd>
+    <dt><kbd>Ctrl k 2</kbd></dt>
+    <dd>Fold all code deeper than 2 tags, except cursor's current location.</dd>
+    <dt><kbd>Ctrl k j</kbd></dt>
+    <dd>Unfold all folded code.</dd>
+  </dl>
+
+  <h2>With Customized Keymap</h2>
+  <dl>
+    <dt><kbd>Ctrl Shift r</kbd></dt>
+    <dd>Tidy Selected HTML (Edit &gt; Line &gt; Reindent)</dd>
+    <dt><kbd>Ctrl v</kbd></dt>
+    <dd>Newly pasted text will use existing indentation; <kbd>Ctrl Shift v</kbd> to do standard paste.</dd>
+    <dt><kbd>Ctrl Shift w</kbd></dt>
+    <dd>Close all open files</dd>
+    <dt><kbd>Alt w</kbd></dt>
+    <dd>Toggle word wrap</dd>
+    <dt><kbd>Ctrl k i</kbd></dt>
+    <dd>Titlecase selected text</dd>
+  </dl>
+
+  <h2>Wicked Cool Stuff</h2>
+
+  <h3>Bookmarks</h3>
+
+  <dl>
+    <dt><kbd>Ctrl F2</kbd></dt>
+    <dd>Add / remove bookmark</dd>
+    <dt><kbd>F2</kbd></dt>
+    <dd>Move to next bookmark; Add <kbd>Shift</kbd> for previous</dd>
+    <dt><kbd>Alt F2</kbd></dt>
+    <dd>Select all bookmarks</dd>
+    <dt><kbd>Ctrl Shift F2</kbd></dt>
+    <dd>Remove all bookmarks</dd>
+  </dl>
+
+  <h3>Emmet.io</h3>
+  <dl>
+    <dt><kbd>Ctrl u</kbd></dt>
+    <dd>Insert dimensions into an image.</dd>
+    <dt><kbd>Ctrl '</kbd></dt>
+    <dd>Encode image as Base 64</dd>
+    <dt><kbd>Ctrl Alt j</kbd></dt>
+    <dd>Move cursor to open tag; again to move cursor to closing tag</dd>
+    <dt><kbd>Shift Ctrl ;</kbd></dt>
+    <dd>Delete parent start and end tag from cursor position.</dd>
+    <dt><kbd>Ctrl UpArrow/DownArrow</kbd></dt>
+    <dd>Increase/Decrease Value by 1; add Alt to increment by 10</dd>
+  </dl>
+
+  <p>See <a href="http://docs.emmet.io/cheat-sheet/">http://docs.emmet.io/cheat-sheet/</a> for super powerful snippets / expansions provided by Emmet.io.</p>
+
+  <h3>Notes</h3>
+  <ol>
+    <li>"Current" means where the cursor is, or a selected block.</li>
+    <li>Don't put "+" in a command unless the user has to actually hit the plus key.</li>
+    <li>Use lower case letters unless upper is required.</li>
+  </ol>
+
+  <h3>Tips</h3>
+  <ul>
+    <li><kbd>Ctrl k</kbd> is the "extra commands opener" which leads to a lot of awesome keyboard commands.</li>
+  </ul>
+
+  <footer>By Katie Kurkoski</footer>
+
+</body>
+</html>
