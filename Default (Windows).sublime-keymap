@@ -1,0 +1,15 @@
+//  Goes in Sublime\Packages\User\
+[
+  // { "keys": ["ctrl+alt+t"], "command": "html_tidy"},
+  // { "keys": ["ctrl+alt+f"], "command": "js_format"},
+  { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+shift+v"], "command": "paste" },
+  { "keys": ["ctrl+shift+r"], "command": "reindent" },
+  { "keys": ["ctrl+shift+w"], "command": "close_all" },
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+  { "keys": ["alt+w"], "command": "toggle_setting",
+      "args": { "setting": "word_wrap" }
+  },
+  { "keys": ["ctrl+k", "ctrl+i"], "command": "title_case" }
+]
