@@ -24,7 +24,8 @@ ul { padding-left: 1em; }
 ol { padding-left: 1.7em; }
 
 body { color: #F8F8F8; background-color: #0C1021; font-family: "Source Code Pro", "Courier New", "Lucida Console", monospace; }
-h1, h2, h3 { font-weight: bold; color: #FF6400; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #FF6400; }
+h3, h4 { margin-top: 1rem; }
 header, footer { color: #AEAEAE; width: 80%; text-align: center; margin: 1em auto; padding-top: 1em; padding-bottom: 1em; border-top: dashed white thin; border-bottom: dashed white thin; }
 a { color: #7F90AA; }
 kbd { background-color: #253B76; padding: 0.2em .3em; border: thin solid #AEAEAE; border-radius: 3px; }
