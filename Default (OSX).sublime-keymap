@@ -1,12 +1,16 @@
 //  Goes in Sublime/Packages/User/
 [
   { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+0"], "command": "reset_font_size" },
+  { "keys": ["super+keypad0"], "command": "reset_font_size" },
   { "keys": ["super+shift+v"], "command": "paste" },
   { "keys": ["super+shift+r"], "command": "reindent" },
   { "keys": ["super+shift+w"], "command": "close_all" },
-  { "keys": ["super+0"], "command": "reset_font_size_to_user_defaults" },
+  { "keys": ["super+tab"], "command": "next_view" },
+  { "keys": ["super+shift+tab"], "command": "prev_view" },
   // { "keys": ["ctrl+super+g"], "command": "find_all_under" },
   { "keys": ["fn+w"], "command": "toggle_setting",
       "args": { "setting": "word_wrap" }
-  }
+  },
+  { "keys": ["ctrl+k", "ctrl+i"], "command": "title_case" }
 ]
