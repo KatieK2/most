@@ -31,6 +31,7 @@ header p { text-align: left; }
 header h2 { margin-bottom: 1em; }
 a { color: #7F90AA; }
 kbd { color: white; background-color: #253B76; padding: 0.2em .3em; border: thin solid #AEAEAE; border-radius: 3px; }
+code { font-family: inherit; font-weight: bold; }
 dt { border-top: dashed white thin; padding-top: .35em; margin-top: .25em; }
 dt:first-child { border-top: none; }
 dd { margin-bottom: 0.25em; }
