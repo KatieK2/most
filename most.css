@@ -35,15 +35,3 @@ code { font-family: inherit; font-weight: bold; }
 dt { border-top: dashed white thin; padding-top: .35em; margin-top: .25em; }
 dt:first-child { border-top: none; }
 dd { margin-bottom: 0.25em; }
-
-/*
-Value Green:    #61CE3C
-Declaration Orange: #FF6400
-Value Yellow:   #FBDE2D
-Blue:         #7F90AA
-Very Lt Blue:   #BECDE6
-Dark Blue:      #253B76
-Bright Blue:    #7A96FA
-Invalid Red:    #AB2A1D
-Or: http://eclipsecolorthemes.org/?view=theme&id=10492
-*/
